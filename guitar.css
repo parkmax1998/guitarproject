@@ -1,0 +1,73 @@
+body {
+    background-color:lightseagreen;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#divOpenFret {
+    background-color: grey;
+    width: 275px;
+}
+
+#openFret {
+    border: 0px solid black;
+    gap: 5px;
+    accent-color: black;
+    border-radius: 25%;
+    outline: 1px black solid;
+    justify-content: center;
+}
+
+#fretBoard {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: saddlebrown;
+    justify-content: space-evenly;
+    gap: 6px 2px;
+    width: 275px;
+}
+
+.fret {
+    border: 0px solid black;
+    padding: 5px;
+    accent-color: black;
+    border-radius: 25%;
+    outline: 1px black solid;
+    justify-content: center;
+}
+
+#gtrStringDiv {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: sandybrown;
+    justify-content: space-evenly;
+    justify-self: center;
+    padding: 5px;
+    width: 275px;
+}
+
+.gtrString {
+    padding: 250px 5px;
+    background-color: black;
+    opacity:0.75;
+    cursor:pointer;
+    transition:0.2s;
+    margin: 5px 12px;
+    justify-content: center;
+}
+
+.gtrString:hover {
+    opacity:1;
+}
+
+.gtrString:disabled {
+    opacity: 0.5;
+    cursor: auto;
+}
+
+#chordDD {
+    display: grid;
+}

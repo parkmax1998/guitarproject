@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Project</title>
+    <link rel="stylesheet" href="guitar.css">
+</head>
+<body>
+    
+    <div id="divOpenFret">
+        <p>Click here for an open fret strum</p>
+        <p id="openFret"></p>
+    </div>
+    <div id="fretBoard"></div>
+    <div id="gtrStringDiv">
+        <div id="strings">
+            <button class="gtrString" id="lowStringE"></button>
+            <button class="gtrString" id="stringA"></button>
+            <button class="gtrString" id="stringD"></button>
+            <button class="gtrString" id="stringG"></button>
+            <button class="gtrString" id="stringB"></button>
+            <button class="gtrString" id="highStringE"></button>
+        </div>
+    </div>
+    <div class="chordDD">
+        <div id="chordName">
+            <select id="chordSelect" name="Chord" value="Chord">
+                <option value="" selected="selected">Please select a chord</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="DMinor">D Minor</option>
+                <option value="E">E</option>
+                <option value="G">G</option>
+            </select>
+            <button id="chordSubmit">Submit</button>
+        </div>
+    </div>
+    <script src="guitar.js"></script>
+</body>
+</html>
